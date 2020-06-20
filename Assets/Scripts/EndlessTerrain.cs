@@ -7,7 +7,7 @@ using UnityEngine.PlayerLoop;
 
 public class EndlessTerrain : MonoBehaviour {
 
-    const float scale = 1f;
+    const float scale = 5f;
 
     const float viewerMoveThresholdForChunkUpdate = 25f;
     const float sqrViewerMoveThresholdForChunkUpdate = viewerMoveThresholdForChunkUpdate * viewerMoveThresholdForChunkUpdate;
